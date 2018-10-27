@@ -1,7 +1,7 @@
 {
   "name": "maxim-oleinik/blade-migrations-symfony",
   "type": "library",
-  "description": "Symfony 4 console commands for Blade/Migrations",
+  "description": "Symfony console commands for Blade/Migrations",
   "keywords": ["symfony", "console", "database migrations"],
   "license": "MIT",
   "authors": [{
