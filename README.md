@@ -14,7 +14,7 @@ Blade/Migrations - Symfony
         composer require maxim-oleinik/blade-migrations-symfony
     ```
 
-2. Создать запускаемый скрипт консоли (если его нет)
+2. Создать запускаемый скрипт консоли (если его нет)  
   см. https://symfony.com/doc/current/components/console.html#creating-a-console-application
     ```
         cli.php
@@ -30,7 +30,7 @@ Blade/Migrations - Symfony
             $application->run();
     ```
 
-3. Схема сборки комманд и их регистрации  
+3. Схема сборки команд и их регистрации
     ```
         // Подключение к БД
         $conn      = new MyDbConnection; // implements \Blade\Database\DbConnectionInterface
