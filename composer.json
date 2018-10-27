@@ -1,0 +1,27 @@
+{
+  "name": "maxim-oleinik/blade-migrations-symfony",
+  "type": "library",
+  "description": "Symfony 4 console commands for Blade/Migrations",
+  "keywords": ["symfony", "console", "database migrations"],
+  "license": "MIT",
+  "authors": [{
+    "name": "Maxim Oleinik",
+    "email": "maxim.oleinik@gmail.com"
+  }],
+
+  "require": {
+    "php": ">=7.0",
+    "maxim-oleinik/blade-migrations": "^0.2.0",
+    "symfony/console": "^3.4"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Blade\\Migrations\\Symfony\\": "src/"
+    }
+  },
+
+  "config": {
+    "sort-packages": true
+  }
+}
